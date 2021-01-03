@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 0px auto;
+    background-color: #eaeaea;
+    height: 550px;
+    border-radius: 355px 0px 355px 6px;
+    border: 1px double #917474;
+    
+}
+.bio-intro{
+    width: 350PX;
+    height: 200px;
+    float: left;
+    margin:140px 0px 0px 100px;
+    padding: 10px;
+}
+.H-style{
+    color: rgb(255, 0, 64);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 50pt;
+}
+.I-style{
+    color: rgb(255, 51, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+}
+.Full-text{
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.bach-img{
+    width: 48%;
+    float: left;
+    margin: 10px ;
+}
+img{
+    margin-left: 300px;
+}
+.navbar{
+    height: 50px;
+    width: 600px;
+    margin: 0px auto;
+    background-color: rgba(141, 137, 137, 0.5);
+    border-radius: 110px 110px 110px 110px;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    margin-left: 40px;
+    padding:16px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+li:hover{
+    background-color: cornflowerblue;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.7s;
+    cursor: pointer;
+}
