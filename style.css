@@ -71,15 +71,18 @@ li:hover{
     cursor: pointer;
     color: aliceblue;
 }
-
+p{
+    color: rgb(61, 61, 61);
+}
 
 .about{
     height: 500px;
     width: 95%;
     margin: auto;
+    padding-bottom: 50px;
 }
 #about-style{
-    color: white;
+    color: rgb(182, 192, 38);
     text-align: center;
     font-size: 35px;
     padding: 5px;
@@ -119,4 +122,91 @@ hr{
 }
 
 
+.contact{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 150px;
+    
+}
+input{
+    height: 30px;
+    width: 90%;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 11px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+textarea{
+    width: 90%;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-top: 14px;
+    border: 1px solid;
+    height: 130px;
+    margin-top: 10px;
+}
+.contact-social{
+    float: left;
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    padding-top: 5%;
+}
+.contact-message{
+    float: right;
+    width: 50%;
+    border: 1px solid dimgray;
+    border-radius: 20px 100px 20px 100px;
+    height: 100%;
+    padding: 15px;
+    padding-left: 2%;
+}
+label{
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(87, 85, 85);
+}
+.btn{
+    height: 38px;
+    width: 35%;
+    font-family: system-ui;
+    border-radius: 24px;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #201f1f;
+    float: right;
+    background: white;
+    border: 1px solid dimgray;
+}
+.btn:hover{
+    color: rgba(0, 0, 0, 0.932);
+    background-color: rgba(155, 145, 145, 0.253);
+    transition: .5s;
+}
+
+
+.btn-social{
+    cursor: pointer;
+    width: 20%;
+    padding-left: 0px;
+    background-color: white;
+    border: 1px solid lightseagreen;
+    margin-right: 12px;;
+}
+.btn-social:hover{
+    color: rgba(0, 0, 0, 0.932);
+    background-color: rgba(155, 145, 145, 0.253);
+    transition: .5s;
+}
+.contact-header{
+    margin-top: -8%;
+    padding-bottom: 20%;
+}
 
