@@ -222,7 +222,7 @@ label{
 
 .footer-half{
     float: left;
-    width: 27%;
+    width: 32%;
     padding: 3%;
 }
 .footer-half label{
@@ -278,13 +278,23 @@ label{
     flex: 25%;
     max-width: 19%;
     padding: 0 4px;
+    cursor: pointer;
+    
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
   }
+  .column img:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+  }
+  
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
